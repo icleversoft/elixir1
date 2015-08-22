@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :app1, App1.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "app1_test",
+  username: "ecto",
+  password: "foobar",
+  database: "app1_development",
   pool: Ecto.Adapters.SQL.Sandbox
