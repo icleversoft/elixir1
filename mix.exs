@@ -35,6 +35,7 @@ defmodule App1.Mixfile do
      {:phoenix_html, "~> 2.0"},
      {:phoenix_live_reload, "~> 0.6", only: :dev},
      {:cowboy, "~> 1.0"},
+     {:postgrex, ">=0.0.0"},
      {:phoenix_haml, github: "eoinkelly/phoenix_haml", override: true}]
   end
 end
